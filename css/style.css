@@ -1,0 +1,265 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color:#2f3035;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+.bodywg {
+    background-color:#2f3035;
+    background-image: url('../img/wildgame.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: scroll;
+ }
+.bodycontact {
+    background-color:#2f3035;
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    /*background-color: blue;*/
+    height: 118px;
+    text-align: center;
+ }
+nav {
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.333);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+main {
+    
+    height: 400px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.maincontact {
+    background-color: rgba(0, 0, 0, 0.0);  
+    color:black;
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    
+}
+
+.maincontact p {
+    font-size: 20px;
+    color:white;
+}
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1 {
+    font-size: 84px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+p{
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+nav a {
+    font-size: 12px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a:hover {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 10px;
+    text-align: center;
+ 
+}
+.maps {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+section p {
+    color:white;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+
+/*Livestock */
+@media (min-width:768px) {
+.sectionparent {
+    display: flex;
+    width: 100%;
+}
+}
+.sectionchild {
+    border: 0px solid blue;
+    float: left;
+    padding-left: 50px;
+    padding-right: 10px;
+    width: 50%;
+}
+* {
+    box-sizing: border-box;
+
+}
+
+.mainlivestock {
+    background-color: rgba(0, 0, 0, 0.05);  
+    color:black;
+    height: 1700px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    border: 0px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.h1livestock {
+    font-size: 35px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+}
+
+.h1livestock2 {
+    font-size: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.h2livestock {
+    font-size: 18px;
+    color:rgb(255, 255, 255, 1.0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+
+.plivestock {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plivestock2 {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plivestock3 {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 15px;
+    text-align: left;
+    padding-left: 100px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plivestock4 {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plivestock5 {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 17px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+}
+.ppriceschange {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 13px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divsupplier {
+    color: rgba(255, 255, 255, 1.0);
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+/*Livestock */
+.mainwildgame {
+    background-color: rgba(0, 0, 0, 0.05);  
+    color:black;
+    height: 900px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    border: 0px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
