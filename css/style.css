@@ -85,7 +85,7 @@ a{
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .gbimg-4, .bgimg-5 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: scroll;
   }
 }
@@ -278,7 +278,7 @@ footer p {
 }
 .fa {
   display:block;
-  border: 1px solid green;
+  border: 0px solid green;
 
   font-size: 3rem;
   width: 4rem;
