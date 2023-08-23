@@ -1,0 +1,12 @@
+[
+    {"animal":"cattle", "prices":[
+        {"name":"harvest_fee_young", "price":"$75.00"},
+        {"name":"harvest_fee_old", "price":"$150.00"},
+        {"name":"processing", "price":"$1.00"}
+    ]},
+    {"animal":"swine", "prices":[
+        {"name":"harvest_fee_young", "price":"$55.00"},
+        {"name":"processing", "price":"$1.00"}
+    ]}
+
+]
