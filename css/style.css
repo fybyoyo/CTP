@@ -5,6 +5,17 @@ body, html {
   color: #777;
   font-size: 62.5%;
 }
+html {
+  scroll-behavior:smooth;
+  background-color: #383838;
+}
+
+body {
+  width:1024px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
@@ -195,12 +206,13 @@ a{
   .plivestock5 {
       color: rgba(255, 255, 255, 1.0);
       font-size: 17px;
-      text-align: left;
+      text-align: justify;
       padding-left: 20px;
       line-height: 1.8;
       font-family: Arial, Helvetica, sans-serif;
       font-style: italic;
-      
+      padding-right: 5rem;
+      padding-left: 5rem;
   }
   .ppriceschange {
       color: rgba(255, 255, 255, 1.0);
