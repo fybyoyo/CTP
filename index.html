@@ -423,10 +423,21 @@
   </div>
 </div>
 
-<script>updatePrices('../prices.json')</script>
+<script>
+
+  const currentUrl = window.location.href;
+  const protocol = window.location.protocol;
+  const host = window.location.host;
+  const pathname = window.location.pathname;
+  const search = window.location.search;
+  const hash = window.location.hash;
+  const url=protocol +"//" + host + "/prices.json";
+
+  updatePrices(url);
+</script>
 
 <footer>
-  <a href="https://www.facebook.com/CentralTexasProcessing" target="_blank" class="fa fa-facebook">f</a>
+  <a href="https://www.facebook.com/CentralTexasProcessing" target="_blank" class="fa fa-facebook"><b>f</b></a>
   
   <br>
   <p>Central Texas Processing, LLC; New Berlin Tx - Copyright 2023©</p>

@@ -1,6 +1,6 @@
 [
    {"animal":"cattle", "prices":[
-     {"id":"C1","name":"Harvest Fee <30 months","price":"$75.00"},
+     {"id":"C1","name":"Harvest Fee <30 months","price":"$175.00"},
      {"id":"C2","name":"Harvest Fee >30 months","price":"$150.00"},
      {"id":"C3","name":"Processing","price":"$1.00"},
      {"id":"C4","name":"Won't fit in chute","price":"$75.00"},
